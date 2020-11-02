@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu_links",
+  "info": {
+    "name": "Menu Link"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Link": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}
