@@ -33,6 +33,14 @@
       }
     },
     {
+      "method": "POST",
+      "path": "/email",
+      "handler": "Email.send",
+      "config": {
+        "policies": []
+      }
+    },
+    {
       "method": "PUT",
       "path": "/contactos/:id",
       "handler": "contacto.update",
