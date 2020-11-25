@@ -2,11 +2,13 @@
   "kind": "collectionType",
   "collectionName": "proyectos",
   "info": {
-    "name": "Proyectos"
+    "name": "Proyectos",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "categoria": {
@@ -14,6 +16,37 @@
       "via": "proyectos"
     },
     "titulo": {
+      "type": "string"
+    },
+    "banner": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "youtube_video": {
+      "type": "string"
+    },
+    "short_description": {
+      "type": "text"
+    },
+    "gallery": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "link_modelo": {
       "type": "string"
     }
   }
