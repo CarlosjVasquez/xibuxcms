@@ -2,11 +2,13 @@
   "kind": "collectionType",
   "collectionName": "categorias",
   "info": {
-    "name": "Categorías"
+    "name": "Categorías",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "titulo": {
@@ -15,11 +17,11 @@
     },
     "subtitulo": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "descripcion": {
       "type": "text",
-      "required": true
+      "required": false
     },
     "modelo": {
       "collection": "file",
@@ -28,11 +30,14 @@
         "files"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     },
     "proyectos": {
-      "via": "categoria",
-      "collection": "proyectos"
+      "collection": "proyectos",
+      "via": "categoria"
+    },
+    "active": {
+      "type": "boolean"
     }
   }
 }

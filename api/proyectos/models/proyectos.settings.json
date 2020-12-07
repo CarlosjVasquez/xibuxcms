@@ -12,8 +12,8 @@
   },
   "attributes": {
     "categoria": {
-      "model": "categorias",
-      "via": "proyectos"
+      "via": "proyectos",
+      "model": "categorias"
     },
     "titulo": {
       "type": "string"
