@@ -54,6 +54,9 @@
     },
     "release_date": {
       "type": "date"
+    },
+    "only_youtube": {
+      "type": "boolean"
     }
   }
 }
