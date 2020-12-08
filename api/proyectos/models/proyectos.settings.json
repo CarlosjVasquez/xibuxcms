@@ -12,8 +12,8 @@
   },
   "attributes": {
     "categoria": {
-      "via": "proyectos",
-      "model": "categorias"
+      "model": "categorias",
+      "via": "proyectos"
     },
     "titulo": {
       "type": "string"
@@ -48,6 +48,12 @@
     },
     "link_modelo": {
       "type": "string"
+    },
+    "premiere": {
+      "type": "boolean"
+    },
+    "release_date": {
+      "type": "date"
     }
   }
 }

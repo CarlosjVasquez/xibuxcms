@@ -33,8 +33,8 @@
       "required": false
     },
     "proyectos": {
-      "collection": "proyectos",
-      "via": "categoria"
+      "via": "categoria",
+      "collection": "proyectos"
     },
     "active": {
       "type": "boolean"
