@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_dirs",
+  "info": {
+    "name": "Contact Dir"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "text"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}
