@@ -3,11 +3,11 @@ module.exports = () => ({
     provider: "sendgrid",
     providerOptions: {
       apiKey:
-        "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",
+        "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",
     },
     settings: {
-      defaultFrom: "virahondacarlos@gmail.com",
-      defaultReplyTo: "virahondacarlos@gmail.com",
+      defaultFrom: "contact@gmail.com",
+      defaultReplyTo: "contact@gmail.com",
     },
   },
 });
