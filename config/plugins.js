@@ -3,11 +3,11 @@ module.exports = () => ({
     provider: "sendgrid",
     providerOptions: {
       apiKey:
-        "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",
+        "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",
     },
     settings: {
-      defaultFrom: "contact@gmail.com",
-      defaultReplyTo: "contact@gmail.com",
+      defaultFrom: "xibuxcontact@gmail.com",
+      defaultReplyTo: "xibuxcontact@gmail.com",
     },
   },
 });

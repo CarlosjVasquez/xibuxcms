@@ -57,6 +57,10 @@
     },
     "only_youtube": {
       "type": "boolean"
+    },
+    "order": {
+      "type": "integer",
+      "default": 10
     }
   }
 }
