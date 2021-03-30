@@ -7,11 +7,11 @@ module.exports = ({ env }) => ({
         client: "postgres",
         host: env("DATABASE_HOST", "127.0.0.1"),
         port: env.int("DATABASE_PORT", 5432),
-        database: env("DATABASE_NAME", "dacmqi118b066q"),
-        username: env("DATABASE_USERNAME", "fgijfjgygqdnvn"),
+        database: env("DATABASE_NAME", "dafs951oi4psf5"),
+        username: env("DATABASE_USERNAME", "xvztdvbjpxsimd"),
         password: env(
           "DATABASE_PASSWORD",
-          "ff7c18943008d18fae3c6045532b0d6961ef3d7f1dd2bd0b07fbadba6d203dd4"
+          "ab1f2d09830d0a669741d6dd5d2a61c1baced8c4a1e5721e4000d6fafc90f59e"
         ),
       },
       options: {},
